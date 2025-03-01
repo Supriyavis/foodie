@@ -19,16 +19,8 @@
     .naviagtion-wrap .navbar-nav a{
         line-height:1.875rem;
     }
-    .review-section .carousel-item .carousel-caption p{
-        padding:0;
-    
-}
+   
 
-.review-section .carousel-caption {
-    padding:1.825rem;
-    width:100%;
-
-}
 }
 
 /* media query for small devices for top banner and counter*/
@@ -47,32 +39,10 @@
     height:auto;
     padding:3rem 0;
 }
-.review-section{
-    padding:1.5rem 0;
-}
-.review-section h2{
-    font-size: 1.6rem;
-}
-.review-section .carousel-caption {
-    padding:1.825rem;
-    width:100%;
-}
-  .review-section .carousel-caption img{
-    width:90px;
-    height:90px;
-}
-.review-section .carousel-item .carousel-caption p{
-    font-size: 1rem;
-    line-height: 1.5rem;
-}
-}
-/*media query for phone*/
 
-@media(max-width:310px){
-    .review-section .carousel-item {
-        padding:1rem 3.125rem;
 }
-}
+
+/*media query for phone*/
 
 /* 
 *******************************
@@ -427,6 +397,10 @@ margin-left: 0.5rem;
 review
 ***************************************
 */
+
+
+
+   
 .review-section{
     background-color: var(--primary-color);
     height:35rem;
@@ -461,19 +435,7 @@ review
     padding:0 11% 0.625rem;
 }
 
-#a{
-    color:#A82C48;
-    font-family:cursive;
-    font-weight: 700;
-    font-size: large;
-}
-#b{
-    color:#A82C48;
-    font-family:cursive;
-    font-weight: 700;
-    font-size: large;
-}
-#c{
+#a,#b,#c{
     color:#A82C48;
     font-family:cursive;
     font-weight: 700;
@@ -497,6 +459,51 @@ review
 .review-section .carousel-indicators button.active{
     opacity: 1;
 }
+
+
+@media (max-width: 768px) {
+    .review-section {
+        padding: 2.5rem 0;
+    }
+
+    .review-section h2 {
+        font-size: 1.6rem;
+    }
+
+    .review-section .carousel-item {
+        width: 100%; 
+        padding: 1.8rem;
+    }
+
+    .review-section .carousel-caption img {
+        width: 90px;
+        height: 90px;
+    }
+    .review-section .carousel-item .carousel-caption p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .review-section .carousel-indicators {
+        display: none !important;
+    }
+
+    .review-section::before,
+    .review-section::after {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+
+    
+
+
+
+ 
+
+
 
 /*
 *****************************
